@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  python:
+    container_name: python_django
+    build:
+      dockerfile: ./.devcontainer/Dockerfile.python_django
+      context: ../
+    volumes:
+      - ../:/python_django/
+    networks:
+      - default
+    tty: true
+    environment:
+      - ENVIRONMENT=local
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+networks:
+  default:
