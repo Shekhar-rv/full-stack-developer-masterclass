@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Feedback Form</Form:post></title>
+</head>
+<body>
+    <h1>Hotel Feedback</h1>
+    <form action="forms_pt2_other.html">
+        <p>Are you from inside or outside the UK?</p>
+        <label for="in">Inside</label>
+        <input type="radio" id="in" name="loc" value="in">
+        <br>
+        <label for="out">Outside</label>
+        <input type="radio" id="out" name="loc" value="out">
+        <p>How was your service?</p>
+        <select name="stars" id="">
+            <option value="1">1 star</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+        </select>
+        <br>
+        <p>What did you like about the hotel?</p>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
