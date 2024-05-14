@@ -1,0 +1,89 @@
+/* h1{
+    color:rgba(38, 65, 132, 0.905);
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 40px;
+} */
+
+h2{
+    color:rgba(38, 132, 44, 0.905);
+    background-color: chocolate;
+}
+
+/* p{
+    color:rgba(132, 38, 38, 0.905);
+    background-color: chartreuse;
+} */
+
+/* div{
+    color:rgba(132, 38, 132, 0.905);
+    background-color: cornflowerblue;
+    border-color: crimson;
+    border-width: 10px;
+    border-style: solid;
+} */
+
+span{
+    color:rgba(132, 38, 38, 0.905);
+    background-color: rgb(236, 68, 255);
+}
+
+body{
+    font-family: Tahoma;
+    font-size: 90%;
+}
+
+#one{
+    color:rgba(39, 50, 212, 0.905);
+    background-color: rgb(61, 177, 40);
+}
+
+#two{
+    color:rgba(186, 39, 212, 0.905);
+    background-color: rgb(26, 22, 3);
+}
+
+#divid{
+    color:rgba(255, 255, 255, 0.905);
+    background-color: rgb(0, 0, 255);
+}
+
+#small{
+    color:rgba(16, 9, 9, 0.905);
+    font-size: 3em;
+}
+
+#up{
+    text-align: center;
+    border: 10px solid rgb(0, 21, 255);
+    margin: 10px 20px 30px 40px;
+}
+
+#down{
+    text-align: center;
+    border: 10px solid rgb(255, 0, 0);
+    padding-top: 20px;
+}
+
+#central{
+    color: chartreuse;
+    background-color: black;
+    text-align: center;
+    border: 10px green solid;
+    margin: 50px 50px 50px 50px;
+}
+
+.myclass{
+    color:rgba(255, 243, 14, 0.905);
+    background-color: rgb(44, 40, 177);
+}
+
+.divclass{
+    color:rgba(0, 0, 0, 0.905);
+    background-color: rgb(255, 0, 0);
+}
+
+.stuff{
+    font-family: "Jacquard 12";
+    font-size: 2em;
+}
