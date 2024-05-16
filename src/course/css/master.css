@@ -87,3 +87,7 @@ body{
     font-family: "Jacquard 12";
     font-size: 2em;
 }
+
+.extra{
+    border: 2px solid black;
+}
