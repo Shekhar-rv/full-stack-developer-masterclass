@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "autopep",
+        "azuretools",
         "devcontainers",
         "drawio",
         "eamodio",
@@ -8,11 +9,14 @@
         "isort",
         "liveshare",
         "mtxr",
+        "mybook",
+        "passcode",
         "pycodestyle",
         "pylance",
         "pylint",
         "pytest",
         "rioj",
+        "sourcery",
         "sqltools"
     ]
 }
