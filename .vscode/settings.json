@@ -19,5 +19,8 @@
         "rioj",
         "sourcery",
         "sqltools"
-    ]
+    ],
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    }
 }
