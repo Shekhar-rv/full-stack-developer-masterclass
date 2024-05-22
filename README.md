@@ -1,5 +1,5 @@
 # Full stack developer masterclass
-Creating websites using Python and Django4. The purpose of this repository is to learn front-end tools such as HTML, CSS and, Bootstrap combined with Django framework in python. The end goal for me is to create a website that will showcase my skills.
+Creating websites using Python and Django4 (I'm using Django5). The purpose of this repository is to learn front-end tools such as HTML, CSS and, Bootstrap combined with Django framework in python. The end goal for me is to create a website that will showcase my skills.
 
 This course `Django 4 and Python Full-Stack Developer Masterclass` can be found on Udemy. 
 ```link
