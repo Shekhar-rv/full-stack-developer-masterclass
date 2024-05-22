@@ -23,7 +23,8 @@
                 "ms-vscode.live-server",
                 "eamodio.gitlens",
                 "sourcery.sourcery",
-                "ms-azuretools.vscode-docker"
+                "ms-azuretools.vscode-docker",
+                "batisteo.vscode-django"
             ],
 			"settings": {
 				"liveshare.guestApprovalRequired": false,
