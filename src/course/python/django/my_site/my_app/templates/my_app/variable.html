@@ -6,9 +6,17 @@
 </head>
 <body>
     <h1>Variable.html</h1>
-    <h2>Hello {{first_name}} {{last_name}}</h2>
-    <h2>{{some_list.1}}</h2> <!-- Accessing list element -->
-    <h2>{{some_dict.key1}}</h2>
-    <h2>{# This is a comment #}</h2>
+    {% comment "" %}
+    <h2>Hello {{first_name | lower | capfirst}} {{last_name | lower | capfirst}}</h2>
+    <ul>
+        {% for item in some_list %}
+            <li>{{item}}</li>
+        {% endfor %}
+    </ul>
+    {% if user_logged_in %}
+    <h1>Welocome {{first_name | capfirst}}!</h1>
+    {% endif %}
+    {% endcomment %}
+    
 </body>
 </html>
