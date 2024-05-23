@@ -8,6 +8,6 @@ WORKDIR /python_django
 COPY ./requirements.txt /python_django/requirements.txt
 RUN pip install --upgrade pip && pip install -r /python_django/requirements.txt
 
-RUN pip install pylint==2.16.2 sqlfluff==1.4.5 parameterized==0.9.0 pycodestyle==2.10.0 snapshottest==0.6.0 coverage==7.2.7
+RUN pip install pylint==2.16.2 sqlfluff==1.4.5 parameterized==0.9.0 pycodestyle==2.10.0 snapshottest==0.6.0 coverage==7.2.7 ipython==8.24.0
 
 ENTRYPOINT ["bash"]
