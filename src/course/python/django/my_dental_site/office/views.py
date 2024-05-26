@@ -4,5 +4,8 @@ from .models import Patient
 
 # Create your views here.
 def list_patients(request: HttpRequest):
+    """
+    List all patients in the database.
+    """
     all_patients = Patient.objects.all()
     return render(request, 'office/list.html', context={'patients': all_patients})
