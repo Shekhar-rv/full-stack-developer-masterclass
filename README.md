@@ -53,3 +53,10 @@ This repository contains a devcontainer that is has Python 3.12 with a few vscod
     ```cmd
     python manage.py runserver
     ```
+
+## Note:
+1. To create a super user, you need to be in the Django project directory you created and run the following command:
+```python
+python manage.py createsuperuser
+```
+    You would need to enter a username, password and an email_id (This is useful if you need to request a change in password)
