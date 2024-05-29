@@ -9,7 +9,7 @@ https://www.udemy.com/course/django-and-python-full-stack-developer-masterclass/
 This repository contains a devcontainer that is has Python 3.12 with a few vscode extensions I felt was useful (List of extensions can be found in the .devcontainer/devcontainer.json under customizations -> vscode -> extensions). The only prerequisite you would require to run this repository on your system would be to install docker and docker compose. After installing these, you should be able to open the repo in vscode and a prompt will pop up asking if you want to open the repo in the devcontainer. Click "Yes".
 
 
-## Steps to setup a new project and create an app using Django
+## Steps to setup a new project and create an app using Django:
 1. Assuming you are in the directory of choice to create your Django project, run the following command to create a project called `my_site` and go into that directory:
     ```cmd
     django-admin startproject my_site
@@ -60,3 +60,8 @@ This repository contains a devcontainer that is has Python 3.12 with a few vscod
 python manage.py createsuperuser
 ```
     You would need to enter a username, password and an email_id (This is useful if you need to request a change in password)
+
+## Known Issues:
+1. Sometime when you run the server, the content may not refresh. This can be due to two reason in my experience:
+    1. You would need to restart the server for the changes to be updated.
+    2. It can be a browser related caching issue, try using incognito mode.

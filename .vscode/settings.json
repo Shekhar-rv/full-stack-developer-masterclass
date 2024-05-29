@@ -11,6 +11,7 @@
         "liveshare",
         "mtxr",
         "mybook",
+        "myform",
         "passcode",
         "pycodestyle",
         "pylance",
@@ -27,4 +28,12 @@
     "livePreview.portNumber": 5500,
     "livePreview.customExternalBrowser": "Chrome",
     "livePreview.serverRoot": "${workspaceFolder}",
+    "pylint.disable": [
+        "C0114",
+        "C0209"
+    ],
+    "pylint.ignorePatterns": [
+        "--disable=C0114",
+        "--disable=C0209",
+      ]
 }
